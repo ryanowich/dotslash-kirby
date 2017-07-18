@@ -1,0 +1,26 @@
+Title: Helte
+----
+Tags: Branding, Website design, Front- og backend
+----
+Pagetone: light
+----
+Color: #F3F1E6
+----
+Year: 2015
+----
+Services: Web design, Responsive, Wordpress, Theme development, Customized WP plugins, PO Translation, Social media, Customized font, Video edit
+----
+
+Text: I en verden ramt af finanskrise, depression og alment mismod er der brug for helte. Kærlighedshelte, revolutionshelte, wellnesshelte og hverdagshelte. Glad Teater har lavet en event/forestilling, hvor 11 af disse hverdagens helte har sat sig som opgave at gøre verden til et bedre sted. 
+
+**Custom responsive WordPress theme** 
+Webdesign, Wordpress opsætning og Wordpress theme i tegneseriestil til teaterforestillingen Helte. Responsive theme bygget på Bootstrap. 
+
+**Grafik og video** 
+Diverse tegneserie-grafikker. Photoshop arbejde på Helte-billeder. Nedklip af video-trailer og integration på hjemmesiden. 
+
+**WordPress customization og plugins** 
+Plugins til direkte upload af video til YouTube. Sikker, afgrænset brugeroprettelse ifm. undervisningsmateriale til elever. Udvikling af nyttige shortcodes. Custom post-types. Plugin til comic-fontvalg i TinyMCE. Specialudviklet Instragram integration. 
+
+----
+Caselink: (link: http://helte.gladteater.dk text: Se hjemmesiden)

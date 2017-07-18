@@ -1,0 +1,281 @@
+Title: Profil
+----
+Pagetone: light
+----
+Color: #88C594
+----
+
+Intro: 
+
+(columns…)
+##Design##
+
+**Jeg er en multidisciplinær digital designer med speciale i webdesign og front-end udvikling. En erfaren ung mand med konstant appetit på ny viden. En stilsikker visuel designer med uddannelsesmæssig baggrund i grafisk design og markedsføring.**
+
+Jeg er ikke en hardcore backend developer men koncentrerer mig om at bringe liv til et design via HTML5, CSS3, JavaScript og CMS.
+
+Mit arbejde spænder over (link: /#portfolio text: en bred vifte af løsninger) - primært online og til tider på tryk.
+
+++++
+
+##Front-end udvikling##
+
+Detaljeorienteret multitasker og problemløser.
+
+Min hovedkompetence er konvertering af koncept og design til en funktionel digital løsning.
+
+Jeg har solid, up to date viden om best practices, quirks og tricks, web trends, cross-browser development. Og laver avanceret HTML5, CSS3, JavaScript der fungerer glidende og responsivt på desktop og mobile platforme.
+
+Jeg sprudler idémæssigt i et team og udvikler koncentreret selvstændigt.
+
+++++
+
+##Erfaring##
+
+Mine mange år som freelancer har lært mig at sætte mig ind i kundens produkt, situation og behov og oversætte kundens vision til en effektiv og simpel løsning. Samt eksekvere hele opgaven fra koncept til færdigt produkt.
+
+Jeg kan præsentere et koncept klart og effektivt. Og jeg forstår at skalere en løsning til et budget og få det maksimale ud af de givne rammer.
+
+###Design: 14 års erfaring###
+###Web development: 11 års erfaring###
+(…columns)
+
+----
+
+Status: <span class="ready_for">Klar til</span> <span class="rotate">freelance opgaver, faste opgaver, en uforpligtende snak</span>
+
+----
+
+BaseInfo: 
+-
+	Title: Navn
+	Content: Ryan Grønborg
+-
+	Title: Alder
+	Content: 21/07/1977
+-
+	Title: Fødested
+	Content: Nordjylland
+-
+	Title: Hjem
+	Content: 13 år i København
+-
+	Title: Familie
+	Content: Hustru + 2 børn
+
+----
+
+Languages:
+-
+	Language: Dansk
+	Speaklevel: 100
+	Writelevel: 100
+-
+	Language: Engelsk
+	Speaklevel: 95
+	Writelevel: 85
+-
+	Language: Tysk
+	Speaklevel: 55
+	Writelevel: 33
+
+----
+
+SkillsProDesign:
+-
+	Skill: Art Direction <span>& koncept</span>
+	Level: 70
+-
+	Skill: Visuelt design
+	Level: 90
+
+----
+
+SkillsProTools:
+-
+	Tool: <span>Adobe </span>Photoshop
+	Level: 90
+-
+	Tool: <span>Adobe </span>Illustrator
+	Level: 55
+-
+	Tool: <span>Google </span>Chrome Dev <span>tools</span>
+	Level: 85
+-
+	Tool: TextMate
+	Level: 95
+-
+	Tool: <span>Adobe </span>DreamWeaver
+	Level: 65
+
+----
+
+SkillsProWebDev:
+-
+	Skill: HTML5, CSS3 og SCSS
+	Level: 100
+-
+	Skill: Responsive webdesign
+	Level: 96
+-
+	Skill: JavaScript, jQuery<span>, GSAP</span> m.fl.
+	Level: 74
+-
+	Skill: WordPress
+	Level: 85
+-
+	Skill: Drupal
+	Level: 75
+-
+	Skill: Front-end development
+	Level: 85
+-
+	Skill: Back-end development
+	Level: 15
+-
+	Skill: PHP
+	Level: 60
+-
+	Skill: Node, Grunt, Bower <span>og Git</span>
+	Level: 25
+	
+----
+
+SkillsBonus:
+-
+	Skill: After Effects & FCP <span>X</span>
+	Level: 60
+-
+	Skill: InDesign
+	Level: 70
+-
+	Skill: Håndtegning
+	Level: 70
+-
+	Skill: Foto og video
+	Level: 60
+-
+	Skill: Mac OS X
+	Level: 98
+	
+----
+
+SkillsPersonal:
+-
+	Skill: Idé-generering
+	Level: 85
+-
+	Skill: Organisering
+	Level: 65
+-
+	Skill: Præsentation
+	Level: 70
+-
+	Skill: Perfektionist
+	Level: 90
+-
+	Skill: Arbejdsmoral
+	Level: 98
+----
+
+Interests:
+-
+	Area: Guitar og trommer
+	Image: PIC
+-
+	Area: Surdej
+	Image: PIC
+-
+	Area: Små projekter i træ
+	Image: PIC
+-
+	Area: Sport
+	Image: PIC
+
+----
+
+CV:
+-
+	Type: Job
+	Title: Webdesign og Development
+	Company: Freelance
+	Location: 
+	TimeStart: 2013
+	TimeEnd: Nu
+	Description: Webdesign, front-end udvikling og themes til WordPress og Drupal m.m.
+	Link: 
+-
+	Type: Job
+	Title: Webdesign og Project Manager
+	Company: Glad Fonden
+	Location: København
+	TimeStart: 2012
+	TimeEnd: Nu
+	Description: **Web:** Design, front-end og back-end. <br />**Videografik:** Identer, wipes mm. <span><br />**Project Management:** <br />Behovsafklaring, prioriteringer, løsningsvalg og styring af interne og eksterne IT og web løsninger.</span> <br />Læs mere på <a href="https://dk.linkedin.com/in/ryanowich">LinkedIn</a>.
+	Link: <https://dk.linkedin.com/in/ryanowich>
+-
+	Type: Job
+	Title: Webdesign og New Media
+	Company: TV-Glad Fonden
+	Location: København
+	TimeStart: 2009
+	TimeEnd: 2012
+	Description: Social media, Facebook apps og online video. Teknisk blæksprutte og tråd-samler på diverse projekter.
+-
+	Type: Job
+	Title: IT Ansvarlig
+	Company: TV-Glad Fonden
+	Location: København
+	TimeStart: 2007
+	TimeEnd: 2009
+	Description: Ansvar for <span>at </span>virksomhedens IT løsninger<span> udviklede sig i takt med at vi voksede fra 30 til 280 medarbejdere spredt over flere afdelinger</span>. OS X Server opsætning, drift<span> og en bred vifte af system administration</span>.
+-
+	Type: Job
+	Title: Flash Web Development
+	Company: TV-Glad
+	Location: København
+	TimeStart: 2006
+	TimeEnd: 2007
+	Description: Masser af Flash.
+-
+	Type: Job
+	Title: Co-founder og Web Designer
+	Company: Mind to Matter
+	Location: København
+	TimeStart: 2005
+	TimeEnd: 2006
+	Description: Design og udvikling af en lang række små image-fokuserede hjemmesider og band sites. Logoer, CD covers og pressemeddelelser. Pitch, præsentation og kunderelationer.
+-
+	Type: Job
+	Title: Web Developer og Underviser
+	Company: Freelance
+	Location: København
+	TimeStart: 2004
+	TimeEnd: 2005
+	Description: Webdesign, HTML og CSS. Undervisning i Adobe GoLive og cross-browser kompatablitet hos samarbejdspartnere og kunder.
+-
+	Type: Job
+	Title: AD og Grafisk Design
+	Company: Visionaire
+	Location: Sønderjylland
+	TimeStart: 2002
+	TimeEnd: 2004
+	Description: Art Direction, visuelle løsninger, logoer, billedbehandling, DTP i QuarkXPress og InDesign. Masser af tryksager og interaktive Flash løsninger online og offline.
+-
+	Type: Uddannelse
+	Title: Grafisk design og markedsføring
+	Company: Akademiet for Markedskommunikation
+	Location: Sønderjylland
+	TimeStart: 2000
+	TimeEnd: 2002
+	Description: Uddannelse i grafisk design, markedsføring og målrettet tekstforfatning.
+
+----
+
+Contact:
+- (link: https://dk.linkedin.com/in/ryanowich text: LinkedIn.com/in/ryanowich class: linkedin)
+- (link: https://facebook.com/ryanowich text: Facebook.com/ryanowich class: facebook)
+- (email: ryan@dotslash.dk text: ryan@dotslash.dk class: email)
+- (tel: +4529430246 text: 29430246 class: phone)
+
+----

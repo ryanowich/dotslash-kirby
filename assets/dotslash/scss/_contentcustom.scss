@@ -1,0 +1,474 @@
+/* Custom content styles */
+
+body.home {
+	//.header .headertext h1 { color: #439C16 !important; }
+	
+	.header {
+		//height: 65%;
+		//min-height: 0;
+	}
+	
+	.main ul.cases li.case_teaser.fns_handicapkonvention {
+		//a .case_info h4::first-line { text-transform: none !important; }
+		a .case_info h4 span { text-transform: none; }
+	}
+	
+	// Frontpage backdrop colors
+	.main ul.cases li.case_teaser {
+		$hoverFill: rgba(213, 213, 213, 0.5);
+		$lightenStroke: 13.5%;
+	
+		&.helte {
+			a svg circle {
+				fill: $dotGreen;
+				stroke: $dotGreen }
+				//stroke: lighten($dotGreen, $lightenStroke) }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotGreen }
+		}
+		&.i_have_a_dream {
+			a svg circle {
+				fill: $dotPink;
+				stroke: $dotPink; }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotPink; }
+		}
+		&.glad_fagskole {
+			a svg circle {
+				fill: $dotBrown;
+				stroke: $dotBrown; }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotBrown; }
+		}
+		&.flugten {
+			a svg circle {
+				fill: $dotBlue;
+				stroke: $dotBlue; }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotBlue; }
+		}
+		&.fns_handicapkonvention {
+			a svg circle {
+				fill: $dotTea;
+				stroke: $dotTea; }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotTea; }
+		}
+		&.ramasjang {
+			a svg circle {
+				fill: $dotRed;
+				stroke: $dotRed; }
+			a:hover svg circle {
+				fill: $hoverFill;
+				stroke: $dotRed; }
+		}
+	}
+}
+
+body.helte {
+	// No padding left and right
+	.main figure#ID02_sketches, 
+	.main figure#ID05_instagram {
+		&.container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+body.i_have_a_dream {
+	.header picture {
+		@media (#{$bp-larger-than-desktop}) {
+			padding: 5em 10em 10em 10em;
+		}
+	}
+	.main {
+		#ID01_poster_1, #ID01_poster_2 {
+			float: left;
+			width: 100%;
+			figcaption { display: none; }
+			&:before, &:after { display: none; }
+			
+			-webkit-margin-before: 0;
+			-webkit-margin-after: 0;
+			-webkit-margin-start: 0;
+			-webkit-margin-end: 0;
+			//margin-before: 0;
+			//margin-after: 0;
+			//margin-start: 0;
+			//margin-end: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			line-height: 0;
+			
+			picture, img {
+				margin: 0;
+				padding: 0;
+				line-height: 0;
+			}
+		}
+	}
+}
+
+body.glad_fagskole {
+	.header .headertext h1 {
+		color: rgba(216, 49, 170, 0.8);
+	}
+	
+	.main figure#ID01_mobile_menu {
+		@media (#{$bp-larger-than-tablet}) {
+			figcaption { width: 24%; margin-left: -15%; }
+			picture { width: 85%; }
+		}
+	}
+	
+	.main section#ID03_sidebar {
+		position: relative;
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		height: auto;
+	
+		background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_400px.png);
+		@media (#{$bp-larger-than-mobile}) {
+			background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_550px.png);
+		}
+		@media (#{$bp-larger-than-phablet}) {
+			background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_750px.png);
+		}
+		@media (#{$bp-larger-than-tablet}) {
+			background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_1000px.png);
+		}
+		@media (#{$bp-larger-than-desktop}) {
+			background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_1440px.png);
+		}
+		@media (#{$bp-larger-than-desktophd}) { 
+			background-image: url(../../../content/1-portfolio/3-Glad_Fagskole/assets/03_sidebar_display_2400px.png);
+		}
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size: 100% auto;
+		padding-bottom: 5%;
+	
+		/*
+		background:
+			url(sweettexture.jpg)		// image
+			top center / 200px 200px // position / size
+			no-repeat								// repeat
+			fixed										// attachment
+			padding-box							// origin
+			content-box							// clip
+			red;												// color
+		*/
+	
+		//@include aspect-ratio(2400, 1504);
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-bottom: (1504/2400) * 100%;
+	
+		video {
+			position: absolute;
+			display: block;
+			//float: right;
+		
+			width: 15.3%;
+			height: auto;
+			//margin-top: 10.2% - (1504/2400*100);
+			/*margin-top: 12%;
+			margin-right: 15.2%;
+			margin-bottom: 0;
+			margin-left: 0;*/
+			top: 16.5%;
+			//left: 0;
+			right: 20.3%;
+			//bottom: 0;
+		
+			//outline: 1px dotted blue;
+			//opacity: 0.5;
+		}
+	}
+}
+
+body.flugten {
+	//background-color: rgb(234, 246, 250) !important;
+	.header {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover !important;
+		
+//		background-image: url(../../../content/1-portfolio/4-Flugten/assets/header_bg_400px.png);
+//		@media (#{$bp-larger-than-mobile}) {
+//			background-image: url(../../../content/1-portfolio/4-Flugten/assets/header_bg_550px.png);
+//		}
+//		@media (#{$bp-larger-than-phablet}) {
+//			background-image: url(../../../content/1-portfolio/4-Flugten/assets/header_bg_750px.png);
+//		}
+//		@media (#{$bp-larger-than-tablet}) {
+//			background-image: url(../../../content/1-portfolio/4-Flugten/assets/header_bg_1000px.png);
+//		}
+//		@media (#{$bp-larger-than-desktop}) {
+//			background-image: url(../../../content/1-portfolio/4-Flugten/assets/header_bg_1280px.png);
+//		}
+	}
+	.headerimg { display: none; }
+	
+	.main .case_meta {
+		margin-top: 5rem;
+	}
+	
+	.main section#ID01_webscroll {
+		position: relative;
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		height: auto;
+	
+		background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_400px.png);
+		@media (#{$bp-larger-than-mobile}) {
+			background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_550px.png);
+		}
+		@media (#{$bp-larger-than-phablet}) {
+			background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_750px.png);
+		}
+		@media (#{$bp-larger-than-tablet}) {
+			background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_1000px.png);
+		}
+		@media (#{$bp-larger-than-desktop}) {
+			background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_1440px.png);
+		}
+		@media (#{$bp-larger-than-desktophd}) { 
+			background-image: url(../../../content/1-portfolio/4-Flugten/assets/laptop_air_1500px.png);
+		}
+	
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-size: 100% auto;
+		//padding-bottom: 5%;
+	
+		//@include aspect-ratio(1500,803);
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-bottom: (803/1500) * 100%;
+	
+		video {
+			position: absolute;
+			display: block;
+			//float: right;
+		
+			$laptopInnerWidth: 54.3%;
+			width: $laptopInnerWidth;
+			height: auto;
+			//margin-top: 4.15% - (803/1500*100%);
+			/*margin-top: 9.5%;
+			margin-right: (100% - $laptopInnerWidth) / 2;
+			margin-bottom: 0;
+			margin-left: (100% - $laptopInnerWidth) / 2;*/
+			top: 15.1%;
+			right: (100% - $laptopInnerWidth) / 2;
+			//bottom: 0;
+			left: (100% - $laptopInnerWidth) / 2;
+		
+			//opacity: 0.5;
+			//display: none;
+		}
+	}
+}
+
+body.fns_handicapkonvention {
+	.header {
+		.headertext h1 span { text-transform: none; }
+	}
+	//.headerimg { display: none; }
+	.header {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover !important;
+		
+//		background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_400px.png);
+//		@media (#{$bp-larger-than-mobile}) {
+//			background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_550px.png);
+//		}
+//		@media (#{$bp-larger-than-phablet}) {
+//			background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_750px.png);
+//		}
+//		@media (#{$bp-larger-than-tablet}) {
+//			background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_1000px.png);
+//		}
+//		@media (#{$bp-larger-than-desktop}) {
+//			background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_1440px.png);
+//		}
+//		@media (#{$bp-larger-than-desktophd}) {
+//			background-image: url(../../../content/1-portfolio/5-FNs_Handicapkonvention/assets/header_2400px.png);
+//		}
+	}
+	
+	.main {
+		//box-sizing: border-box;
+		padding-left: $global-padding;
+		padding-right: $global-padding;
+		
+		.case_meta {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		
+		.extra_content {
+			position: relative;
+			display: block;
+			float: left;
+			//width: 97.5%;
+			width: 100%;
+			//margin: 0 0 2rem 2%;
+			margin: 0 0 2rem 0;
+			//padding-bottom: (720/1280) * 100% !important;
+			padding-bottom: 57.4%; // Custom YouTube aspect incl. playbar
+			//border: 1px solid #BEB3A0;
+			
+			.video {
+				//position: relative;
+				//display: block;
+				position: absolute;
+				display: block;
+				width: 100%;
+				//@media (#{$bp-larger-than-phablet}) { width: 97.5%; }
+				height: 100%;
+				//margin: 0 0 2rem 2%;
+				
+				iframe {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+		
+		> figure {
+			position: relative;
+			display: block;
+			float: left;
+			width: 100%;
+			padding: 0;
+			margin-bottom: 2rem;
+			
+			@media (#{$bp-larger-than-phablet}) {
+				width: 50% - (2.5% / 2);
+				//float: left;
+				&:nth-child(2n) { margin-left: 2.5%; }
+			}
+			border: 1px solid #BEB3A0;
+		}
+		
+		nav.prevnext {
+			width: 100% + (2 * $global-padding);
+			margin-left: -$global-padding;
+			margin-right: -$global-padding;
+		}
+	}
+}
+
+body.ramasjang {
+	// From http://www.jqueryscript.net/demo/jQuery-Based-One-Page-Scrolling-Navigation-with-3D-Transforms/
+	//background-color: #23af56;
+	//background-image: linear-gradient(135deg, #23af56 0%, #67A79A 100%);
+	
+	.header {
+		picture {
+			@media (#{$bp-larger-than-desktop}) {
+				padding: 10% 5% 5% 5%;
+			}
+		}
+	}
+	
+	.main section#ID02_tv_intro {
+		position: relative;
+		display: block;
+		float: left;
+		clear: both;
+		width: 100%;
+		height: auto;
+	
+		background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_400px.png);
+		@media (#{$bp-larger-than-mobile}) {
+			background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_550px.png);
+		}
+		@media (#{$bp-larger-than-phablet}) {
+			background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_750px.png);
+		}
+		@media (#{$bp-larger-than-tablet}) {
+			background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_1000px.png);
+		}
+		@media (#{$bp-larger-than-desktop}) {
+			background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_1440px.png);
+		}
+		@media (#{$bp-larger-than-desktophd}) { 
+			background-image: url(../../../content/1-portfolio/6-Ramasjang/assets/laptop_air_1500px.png);
+		}
+	
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size: 100% auto;
+		//padding-bottom: 5%;
+	
+		//@include aspect-ratio(1500,803);
+		position: relative;
+		display: block;
+		width: 100%;
+		padding-bottom: (803/1500) * 100%;
+	
+		video {
+			position: absolute;
+			display: block;
+			//float: right;
+		
+			$laptopInnerWidth: 54.3%;
+			width: $laptopInnerWidth;
+			height: auto;
+			//margin-top: 4.15% - (803/1500*100%);
+			/*margin-top: 9.5%;
+			margin-right: (100% - $laptopInnerWidth) / 2;
+			margin-bottom: 0;
+			margin-left: (100% - $laptopInnerWidth) / 2;*/
+			top: 15.1%;
+			right: (100% - $laptopInnerWidth) / 2;
+			//bottom: 0;
+			left: (100% - $laptopInnerWidth) / 2;
+		
+			//opacity: 0.5;
+		}
+	}
+}
+
+/*
+// Bigger headerimg on some cases
+body {
+	&.helte, 
+	&.glad_fagskole {
+		.header .headerimg {
+			width: 110%;
+			margin-left: -5%;
+			@media (#{$bp-larger-than-phablet}) {
+				width: 100%;
+				margin-left: auto;
+			}
+		}
+	}
+	&.ramasjang {
+		.header .headerimg {
+			width: 200%;
+			margin-left: -50%;
+			@media (#{$bp-larger-than-phablet}) {
+				width: 100%;
+				margin-left: auto;
+			}
+		}
+	}
+}
+*/

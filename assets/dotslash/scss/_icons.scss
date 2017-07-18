@@ -1,0 +1,21 @@
+/* Icons */
+
+// ME
+.skill_name {
+	overflow: visible;
+	
+	&:before {
+		content: '';
+		display: block;
+		float: left;
+		background: url(../img/icons/ps.png) no-repeat;
+		$iconSize: 14px;
+		background-size: $iconSize auto;
+		width: $iconSize;
+		height: $iconSize;
+		vertical-align: text-top;
+		margin-right: ($iconSize / 2) - 1px;
+		margin-top: $iconSize - 9px - 1px;
+		filter: grayscale(100%);
+	}
+}

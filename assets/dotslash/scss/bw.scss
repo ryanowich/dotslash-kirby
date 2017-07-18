@@ -1,0 +1,77 @@
+// Override styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Color overrides to b/w
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+body {
+	background-image: none !important;
+	//.header { background-color: #F3F3F3 !important; }
+	//.main { background-color: #fff !important; }
+	//background-color: #fff !important;
+	background-color: #F3F3F3 !important;
+}
+
+/*
+// Angled divider
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+body {
+	overflow-x: hidden;
+	
+	.header {
+		height: 112%;
+		.headertext { bottom: 16%; }
+		.headerimg { top: 45%; }
+	}
+	.main, .footer {
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			left: -10%;
+			width: 120%;
+			height: 225px;
+			background: #fff;
+		
+			transform: rotate(-5deg);
+			transform-origin: left top;
+			transition: transform 1.4s cubic-bezier(.77,0,.175,1).1s;
+		}
+	}
+	.header {
+		//z-index: 1;
+	}
+	.main {
+		z-index: 1;
+		&:before { top: -20px; }
+	}
+	.footer {
+		letter-spacing: .05rem;
+		//z-index: 1;
+		&:before { top: 0; }
+		min-height: 310px;
+		padding-top: 252px;
+	}
+}
+*/
+
+// Fonts
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//$font-family-default: 'CaeciliaLT-Light', 'Courier New', 'Droid Sans Mono', 'Liberation Mono', monospace !default;
+$font-family-default: 'Courier New', 'Droid Sans Mono', 'Liberation Mono', monospace !default;
+$font-family-copy: $font-family-default;
+//$font-family-copy: 'ff-tisa-web-pro', sans-serif !default;  // Weights 400, 700
+$font-family-nav: 'proxima-nova', sans-serif !default;  // Weights 100, 300, 400, 600, 700;
+$font-family-header: 'proxima-nova', 'Futura Bold', 'Raleway', sans-serif;
+$font-family-subline: $font-family-default;
+$font-family-italic: 'Libre Baskerville', serif;  // Weights 400, 700
+
+.default { font-family: $font-family-default; font-weight: 100; } // Weights 400, 700
+.copy { font-family: $font-family-default; font-weight: 100; } // Weights 400, 700
+//.simple { font-family: $font-family-simple; font-weight: 500; } // Weights 100, 300, 400, 600, 700;
+.header-big { font-family: $font-family-header; font-weight: 700; } // Weights 100,200,300, 400,500,600,700,800,900
+.header-small { font-family: $font-family-header; font-weight: 600; } // Weights 100,200,300, 400,500,600,700,800,900
+.subline { font-family: $font-family-default; font-weight: 400; } // Weights 400, 700
+.nav { font-family: $font-family-nav; font-weight: 600; } // Weights 400, 700
+.italic { font-family: $font-family-italic; font-weight: 400; } // Weights 400, 700 
+
+body { font-family: $font-family-default; }

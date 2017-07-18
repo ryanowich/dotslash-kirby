@@ -1,0 +1,91 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Z-indexes
+$preloader-zindex: 999;
+$nav-zindex: 900;
+
+// Breakpoints
+$bp-larger-than-mobile:			"min-width: 400px" !default;
+$bp-larger-than-phablet:		"min-width: 550px" !default;
+$bp-larger-than-tablet:			"min-width: 750px" !default;
+//$bp-larger-than-desktop:		"min-width: 1000px" !default;
+$bp-larger-than-desktop:		"min-width: 1000px" !default;
+//$bp-larger-than-desktophd:	"min-width: 1200px" !default;
+$bp-larger-than-desktophd:	"min-width: 1420px" !default;
+
+// Colors
+$light-grey: #e1e1e1 !default;
+$dark-grey: #333 !default;
+$semi-grey: #7E7E7E !default;
+$primary-color: #33c3f0 !default;
+$secondary-color: lighten($dark-grey, 13.5%) !default;
+$border-color: #bbb !default;
+$font-color: #222 !default;
+$link-color: $font-color !default;
+$body-color: #fefefe;
+$body-bg: #F3F3F3;
+
+// Case colors
+$dotBrown: #805C47;
+$dotTea: #F2D98D;
+$dotGreen: #83CF98;
+$dotOrange: #F07818;
+$dotGold: #EFB049;
+$dotBlue: #85C5E4;
+$dotPink: #D3789B;
+$dotRed: #EC774E;
+
+// Nav colors
+$nav-dark:	#222;
+//$nav-light: #fff;
+//$nav-light: #F9F5F2;
+$nav-light: #F5F7EF;
+$nav-hover: #2098d1;
+
+// Logo colors
+$headerColor: #1D1D1F;
+$logoStrokeColor: #1D1D1F;
+$logoFillColor: #1D1D1F;
+$logoStrokeColorInv: #fff;
+$logoFillColorInv: transparent;
+
+
+// Typography
+////$font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+////$font-family: 'Montserrat', sans-serif !default;
+//
+////$font-family-default: 'ff-tisa-web-pro', sans-serif !default;  // Weights 400, 700
+////$font-family-default: 'Montserrat', sans-serif !default;
+////$font-family-default: 'Cousine', 'Courier New', 'Courier', sans-serif !default;
+////$font-family-default: 'Courier PS W01', 'Courier New', 'Droid Sans Mono', 'Liberation Mono', monospace !default;
+//$font-family-default: 'Courier New', 'Droid Sans Mono', 'Liberation Mono', monospace !default;
+//$font-family-copy: 'merriweather', sans-serif !default;  // Weights 300, 700
+////$font-family-copy: 'ff-tisa-web-pro', sans-serif !default;  // Weights 400, 700
+//$font-family-nav: 'proxima-nova', sans-serif !default;  // Weights 100, 300, 400, 600, 700;
+//$font-family-header: 'proxima-nova', 'Futura Bold', 'Raleway', sans-serif;
+//$font-family-subline: $font-family-default;
+//$font-family-italic: 'Libre Baskerville', serif;  // Weights 400, 700
+
+// BW
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+$font-family-default: 'Courier New', 'Droid Sans Mono', 'Liberation Mono', monospace !default;
+$font-family-copy: $font-family-default;
+//$font-family-copy: 'ff-tisa-web-pro', sans-serif !default;  // Weights 400, 700
+$font-family-nav: 'proxima-nova', sans-serif !default;  // Weights 100, 300, 400, 600, 700;
+$font-family-header: 'proxima-nova', 'Futura Bold', 'Raleway', sans-serif;
+$font-family-subline: $font-family-default;
+$font-family-italic: 'Libre Baskerville', serif;  // Weights 400, 700
+
+// Grid Variables
+$container-width: 960px !default;
+$container-width-larger-than-mobile: 85% !default;
+$container-width-larger-than-phablet: 80% !default;
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
+$column-margin: 4% !default; // space between columns
+
+// Misc
+$global-radius: 4px !default;
+
+$global-padding: 7.3%;

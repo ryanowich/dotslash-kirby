@@ -1,0 +1,7 @@
+Title: Customized font
+----
+Caption: Tilretning af font. Et mere læsbart G samt tilføjelse af danske karakterer æøå og ÆØÅ. Integration som webfont.
+
+Derudover produktion af WordPress TinyMCE plugin med mulighed for brug af comic font.
+----
+Align: left

@@ -1,0 +1,161 @@
+// NOTE
+// html is set to 62.5% so that all the REM measurements throughout Skeleton
+// are based on 10px sizing. So basically 1.5rem = 15px :)
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	//font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
+	//font-size: 1.3em;
+	font-size: 1.4em; // Courier new
+	//line-height: 1.6;
+	line-height: 1.8125;
+	font-weight: 400;
+	font-family: $font-family-default;
+	color: $font-color;
+}
+
+// Typography
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	//font-weight: 300;
+	//font-weight: 600;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h1 { font-size: 4.0rem; line-height: 1.2;	letter-spacing: -.1rem;	}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem;	}
+h3 { font-size: 3.0rem; line-height: 1.3;	letter-spacing: -.1rem;	}
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: 0; } // letter-spacing: -.08rem;
+h5 { font-size: 1.8rem; line-height: 1.5;	letter-spacing: -.05rem; }
+
+// Text headlines with equal size (instead of bold)
+h6 { font-size: 1.6rem; line-height: 1.6;	letter-spacing: 0; }
+
+// Larger than phablet
+@media (#{$bp-larger-than-phablet}) {
+	h1 { font-size: 5.0rem; }
+	/*
+	h2 { font-size: 4.2rem; }
+	h3 { font-size: 3.6rem; }
+	h4 { font-size: 3.0rem; }
+	h5 { font-size: 2.4rem; }
+	*/
+	h2 { font-size: 3.5rem; }
+	h3 { font-size: 3.0rem; }
+	h4 { font-size: 2.5rem; }
+	h5 { font-size: 2.0rem; }
+	h6 { font-size: 1.6rem; }
+}
+
+p { margin-top: 0; }
+.em {
+	font-style: italic;
+}
+
+/*
+h3 {
+	font-family: $font-family-italic;
+	//font-size: 1.5em;
+	//line-height: 1.6;
+	font-weight: 400;
+	//font-weight: 700;
+	&.em { font-style: italic; }
+}*/
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+	color: $link-color;
+	&:hover {
+		color: darken($link-color, 5%);
+	}
+}
+
+// Fonts
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+//.default { font-family: $font-family-default; font-weight: 400; } // Weights 400, 700
+//.copy { font-family: $font-family-default; font-weight: 400; } // Weights 400, 700
+////.simple { font-family: $font-family-simple; font-weight: 500; } // Weights 100, 300, 400, 600, 700;
+//.header-big { font-family: $font-family-header; font-weight: 700; } // Weights 100,200,300, 400,500,600,700,800,900
+//.header-small { font-family: $font-family-header; font-weight: 600; } // Weights 100,200,300, 400,500,600,700,800,900
+//h6 { font-family: $font-family-header; font-weight: 600; } // Weights 100,200,300, 400,500,600,700,800,900
+//.subline { font-family: $font-family-default; font-weight: 400; } // Weights 400, 700
+//.nav { font-family: $font-family-nav; font-weight: 600; } // Weights 400, 700
+//.italic { font-family: $font-family-italic; font-weight: 400; } // Weights 400, 700
+
+// BW
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+.default { font-family: $font-family-default; font-weight: 100; } // Weights 400, 700
+.copy { font-family: $font-family-default; font-weight: 100; } // Weights 400, 700
+//.simple { font-family: $font-family-simple; font-weight: 500; } // Weights 100, 300, 400, 600, 700;
+.header-big { font-family: $font-family-header; font-weight: 700; } // Weights 100,200,300, 400,500,600,700,800,900
+.header-small { font-family: $font-family-header; font-weight: 600; } // Weights 100,200,300, 400,500,600,700,800,900
+.subline { font-family: $font-family-default; font-weight: 400; } // Weights 400, 700
+.nav { font-family: $font-family-nav; font-weight: 600; } // Weights 400, 700
+.italic { font-family: $font-family-italic; font-weight: 400; } // Weights 400, 700 
+
+body { font-family: $font-family-default; }
+
+/*
+// GT Walsheim Web Bold
+@font-face {
+    font-family: 'walsheim_bold';
+    src: url('../fonts/walsheim/walsheim-bold-web.eot');
+    src: url('../fonts/walsheim/walsheim-bold-web-0.eot#iefix') format('embedded-opentype'),
+         url('../fonts/walsheim/walsheim-bold-web.woff') format('woff'),
+         url('../fonts/walsheim/walsheim-bold-web.ttf') format('truetype'),
+         url('../fonts/walsheim/walsheim-bold-web.svg#gt_walsheim_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'walsheim_bold_oblique';
+    src: url('../fonts/walsheim/walsheim-bold-oblique-web.eot');
+    src: url('../fonts/walsheim/walsheim-bold-oblique-web-0.eot#iefix') format('embedded-opentype'),
+         url('../fonts/walsheim/walsheim-bold-oblique-web.woff') format('woff'),
+         url('../fonts/walsheim/walsheim-bold-oblique-web.ttf') format('truetype'),
+         url('../fonts/walsheim/walsheim-bold-oblique-web.svg#gt_walsheim_bold_oblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+	font-family: "walsheim_bold", sans-serif;
+}*/
+
+/*
+h1, h2, h3 {
+	font-family: "ff-ginger-web-pro", sans-serif;
+	font-weight: 400 !important;
+	font-style: italic !important;
+	text-transform: lowercase !important;
+}*/
+/*
+h1, h2, h3 {
+	font-family: "brandon-grotesque", sans-serif;
+	font-weight: 700 !important;
+	//font-weight: 900 !important;
+	//font-style: italic !important;
+	//text-transform: none !important;
+}*/
+/*
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700 !important;
+	//font-weight: 900 !important;
+	//font-style: italic !important;
+	text-transform: none !important;
+}*/

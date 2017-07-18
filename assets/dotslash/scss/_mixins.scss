@@ -1,0 +1,146 @@
+// Functions
+@function grid-column-width($n) {
+	@return $column-width * $n - ($column-margin*($total-columns - $n)/$total-columns);
+}
+
+@function grid-offset-length($n) {
+	@return grid-column-width($n) + $column-margin;
+}
+
+// Placeholder selectors
+%vertical-align {
+	position: relative;
+	top: 50%;
+	//-webkit-transform: translateY(-50%);
+	//-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+%centerer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+%clearfix {
+	*zoom: 1;
+	&:before, &:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+%visuallyhidden {
+	margin: -1px;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
+}
+
+// Circle charts
+@mixin circlechart_inner($circleSize, $strokeWidth) {
+	$chartSpeakFront: #2EAADA;
+	$chartSpeakBg: rgba(224, 224, 224, 0.5); // #E0E0E0
+	$chartWriteFront: #79C2DF;
+	$chartWriteBg: rgba(232, 232, 232, 0.5); // #E8E8E8
+	
+	position: relative;
+	display: block;
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	svg .ct-series .ct-slice-donut { stroke-width: $strokeWidth; }
+
+	&.speak {
+		//width: $circleSize !important;
+		//height: $circleSize !important;
+		width: $circleSize;
+		height: $circleSize;
+		z-index: 0;
+		svg .ct-series.ct-series-a .ct-slice-donut { stroke: $chartSpeakFront; }
+		svg .ct-series.ct-series-b .ct-slice-donut { stroke: $chartSpeakBg; } //#E4E4E4; }
+	}
+	&.write {
+		//padding: $strokeWidth;
+		margin-top: -($circleSize - (1 * $strokeWidth));
+		//width: $circleSize - (2 * $strokeWidth) - 4 !important;
+		//height: $circleSize - (2 * $strokeWidth) - 4 !important;
+		width: $circleSize - (2 * $strokeWidth);
+		height: $circleSize - (2 * $strokeWidth);
+		z-index: 1;
+		svg .ct-series.ct-series-a .ct-slice-donut { stroke: $chartWriteFront; }
+		svg .ct-series.ct-series-b .ct-slice-donut { stroke: $chartWriteBg; } //#E7E7E7; }
+	}
+}
+
+
+
+// Mixins
+@mixin aspect-ratio($width, $height) {
+	//box-sizing: content-box;
+	//box-sizing: border-box;
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		width: 100%;
+		padding-top: ($height / $width) * 100%;
+	}
+	> * {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+// From http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin keyframes($animation-name) {
+	@-webkit-keyframes $animation-name {
+		@content;
+	}
+	@-moz-keyframes $animation-name {
+		@content;
+	}	
+	@-ms-keyframes $animation-name {
+		@content;
+	}
+	@-o-keyframes $animation-name {
+		@content;
+	}	
+	@keyframes $animation-name {
+		@content;
+	}
+}
+
+@mixin animation($str) {
+	-webkit-animation: #{$str};
+	-moz-animation: #{$str};
+	-ms-animation: #{$str};
+	-o-animation: #{$str};
+	animation: #{$str};			
+}

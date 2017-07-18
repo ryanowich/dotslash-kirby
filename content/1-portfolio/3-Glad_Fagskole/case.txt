@@ -1,0 +1,21 @@
+Title: Glad Fagskole
+----
+Tags: Front-end, Responsive, Drupal
+----
+Pagetone: light
+----
+Color: #F5F7EF
+----
+Year: 2014
+----
+Services: Web front-end, UI, Responsive, Sass, Drupal multisite, Drupal Theme
+----
+
+Text: Omstrukturering fra single site til Drupal multisite. Backend Drupal arbejde og optimering af brugervenlighed ifm. organisering og opdatering af indhold. Fælles kodebase, fælles theme med subthemes. Opdaterings- og driftstrategi for 6 eksisterende sites samt efterfølgende undervisning og support. 
+
+Responsive CSS og ny menu. Responsive sidebar med flydende hover-oplevelse. Custom crop module til slideshow og en lang række andre features under the hood. 
+
+**Design:** Glad Design 
+
+----
+Caselink: (link: http://kbh.gladfagskole.dk text: Se hjemmesiden)

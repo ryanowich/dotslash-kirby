@@ -1,0 +1,168 @@
+/* Chart styles */
+
+/* Progress bars */
+// From http://geoffgraham.me/css-bar-chart-using-html5-progress/
+
+table.skills {
+	width: 100%;
+	
+	th, tr { margin: 0; padding: 0; }
+	td { padding: 0 0; }
+	
+	tr.skill {
+		//border-bottom: 1px solid #F2F2F2;
+		//border-bottom: none;
+		
+		td.skill_name {
+			//width: 1%; // Shrink
+			white-space: nowrap; // Grow
+			padding-right: 2rem;
+			font-size: 1.3rem;
+		}
+		td.skill_value {
+			//max-width: 365px;
+			width: 60%;
+			//padding-left: 2rem;
+			
+			progress, progress[role] {
+				$barHeight: 9px;
+				
+				position: relative;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;
+				border: none;
+				background-size: auto;
+				width: 100%;
+				height: $barHeight;
+				vertical-align: middle;
+				z-index: 0;
+				
+				&:before, &:after {
+					content: '';
+					box-sizing:border-box;
+					display: block;
+					position: absolute;
+					top: 0;
+					//left: 0;
+					height: 100%;
+					width: 25%;
+					//$borderColor: #E4E4E4; //rgba(255, 255, 255, 0.75)
+					$borderColor: rgba(228, 228, 228, 0.6);
+					border-left: 1px solid $borderColor;
+					border-right: 1px solid $borderColor;
+					z-index: 1;
+				}
+				&:before { left: 25%; }
+				&:after { left: 75%; }
+			}
+			
+			/*
+			::-webkit-progress-value { 
+				-webkit-animation: bar-fill 2s;
+				width: 0px;
+			}
+			// Animation Keyframes
+			@-webkit-keyframes bar-fill {
+				0% { width: 0; }
+			}
+
+			@keyframes bar-fill {
+				0% { width: 0; }
+			}
+			*/
+			
+			// From http://html5doctor.com/the-progress-element/
+			progress.skillstyle { color: #1486C2; background: #E4E4E4; }
+			progress.skillstyle::-moz-progress-bar { background: #1486C2; }
+			progress.skillstyle::-webkit-progress-value { background: #1486C2; }
+			progress.skillstyle::-webkit-progress-bar { background: #E4E4E4; }
+			
+			$levelbarBlue: #2EAADA;
+			progress.skillstyle.blue { color: $levelbarBlue; }
+			progress.skillstyle.blue::-moz-progress-bar { background: $levelbarBlue; }
+			progress.skillstyle.blue::-webkit-progress-value { background: $levelbarBlue; }
+			
+			$levelbarLightblue: #3FA9C7;
+			progress.skillstyle.lightblue { color: $levelbarLightblue; }
+			progress.skillstyle.lightblue::-moz-progress-bar { background: $levelbarLightblue; }
+			progress.skillstyle.lightblue::-webkit-progress-value { background: $levelbarLightblue; }
+			
+			$levelbarGreen: #51A9B5;
+			progress.skillstyle.green { color: $levelbarGreen; }
+			progress.skillstyle.green::-moz-progress-bar { background: $levelbarGreen; }
+			progress.skillstyle.green::-webkit-progress-value { background: $levelbarGreen; }
+			
+			$levelbarLightgreen: #62A8A3;
+			progress.skillstyle.lightgreen { color: $levelbarLightgreen; }
+			progress.skillstyle.lightgreen::-moz-progress-bar { background: $levelbarLightgreen; }
+			progress.skillstyle.lightgreen::-webkit-progress-value { background: $levelbarLightgreen; }
+			
+			$levelbarYellow: #E8A416;
+			progress.skillstyle.yellow { color: $levelbarYellow; }
+			progress.skillstyle.yellow::-moz-progress-bar { background: $levelbarYellow; }
+			progress.skillstyle.yellow::-webkit-progress-value { background: $levelbarYellow; }
+			
+			$levelbarDarkyellow: #D7A529;
+			progress.skillstyle.darkyellow { color: $levelbarDarkyellow; }
+			progress.skillstyle.darkyellow::-moz-progress-bar { background: $levelbarDarkyellow; }
+			progress.skillstyle.darkyellow::-webkit-progress-value { background: $levelbarDarkyellow; }
+			
+			//progress.skillstyle.default { box-shadow: 1px 1px 1px 1px #ccc; }
+							
+			/*
+			progress {
+				$barHeight: 10px;
+				-moz-border-radius: $barHeight / 2;
+				-webkit-border-radius: $barHeight / 2;
+				border-radius: $barHeight / 2; // Future proofing
+				-khtml-border-radius: $barHeight / 2; // For old Konqueror browsers
+			}
+			*/
+		}
+		
+	}
+}
+
+
+/* Circle charts */
+
+.chart_container {
+	
+	* {
+		background: transparent;
+		fill: transparent;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+		line-height: 1.2;
+	}
+
+	.chart_description {
+		position: absolute;
+		display: block;
+		//top: 37%;
+		left: 0;
+		z-index: 2;
+		width: 100%;
+		text-align: center;
+		//margin-top: -1.1rem - 1.1rem - 1.3rem;
+		p {
+			position: relative;
+			display: block;
+			//font-size: 1.1rem;
+			margin-bottom: 0.4rem;
+		
+			&.lang_title {
+				font-size: 1.4rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				margin-bottom: .3rem;
+			}
+			&.speaklevel, &.writelevel { font-size: 1.1rem; margin-bottom: 0.2rem; }
+		}
+	}
+	
+}

@@ -1,0 +1,26 @@
+Title: DOTSLASH
+
+----
+Theme: dotslash
+----
+Themepath: assets/dotslash
+----
+
+Author: Ryan Grønborg
+----
+Phone: (tel: +4529430246 text: Tel. +45 29430246)
+----
+Mail: (email: ryan@dotslash.dk text: ryan@dotslash.dk)
+
+----
+
+Description: Ryan Grønborgs personlige portfolio.
+
+----
+
+Keywords: portfolio, portefølje, web development, web udvikling, front-end, webdesign, ui, grafisk design
+
+----
+
+Copyright: © 2015 (link: http://www.dotslash.dk text: DOTSLASH)
+

@@ -1,0 +1,19 @@
+Title: Flugten
+----
+Tags: Website design, Front-end
+----
+Pagetone: dark
+----
+Color: #FCFAF5
+----
+Year: 2010
+----
+Services: Art Direction, Web front-end, JavaScript
+----
+
+Text: Med udgangspunkt i allerede produceret grafik og fotos ønskede kunden et simpelt statisk site. Løsningen tager udgangspunkt i plakatens billede med hovedrolleindehaver der er i frit fald og visualiserer faldet ifm. scroll-to-anchor. Forestillingen er slut og sitet er offline. 
+
+**Foto:** Søren Knud 
+
+----
+Caselink: Offline

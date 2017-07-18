@@ -1,0 +1,10 @@
+Title: <span class="front-title frontend">Front</span><span>-end</span> <span class="front-title webdesign">Webdesign</span> <span class="front-title and">&</span> <span class="front-title development">Development</span>
+----
+Tags: Ryan Grønborg
+----
+Pagetone: light
+----
+Color: #FFFEF9
+----
+
+Text: 
