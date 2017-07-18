@@ -36,8 +36,8 @@ Mine mange år som freelancer har lært mig at sætte mig ind i kundens produkt,
 
 Jeg kan præsentere et koncept klart og effektivt. Og jeg forstår at skalere en løsning til et budget og få det maksimale ud af de givne rammer.
 
-###Design: 14 års erfaring###
-###Web development: 11 års erfaring###
+###Design: 16 års erfaring###
+###Web development: 13 års erfaring###
 (…columns)
 
 ----
@@ -58,7 +58,7 @@ BaseInfo:
 	Content: Nordjylland
 -
 	Title: Hjem
-	Content: 13 år i København
+	Content: 15 år i København
 -
 	Title: Familie
 	Content: Hustru + 2 børn
@@ -86,27 +86,27 @@ SkillsProDesign:
 	Skill: Art Direction <span>& koncept</span>
 	Level: 70
 -
-	Skill: Visuelt design
-	Level: 90
+	Skill: Digital design
+	Level: 100
 
 ----
 
 SkillsProTools:
 -
+	Tool: <span>Sketch</span>
+	Level: 100
+-
 	Tool: <span>Adobe </span>Photoshop
-	Level: 90
+	Level: 95
 -
 	Tool: <span>Adobe </span>Illustrator
-	Level: 55
+	Level: 65
 -
 	Tool: <span>Google </span>Chrome Dev <span>tools</span>
 	Level: 85
 -
 	Tool: TextMate
 	Level: 95
--
-	Tool: <span>Adobe </span>DreamWeaver
-	Level: 65
 
 ----
 
@@ -116,7 +116,7 @@ SkillsProWebDev:
 	Level: 100
 -
 	Skill: Responsive webdesign
-	Level: 96
+	Level: 100
 -
 	Skill: JavaScript, jQuery<span>, GSAP</span> m.fl.
 	Level: 74
@@ -136,8 +136,8 @@ SkillsProWebDev:
 	Skill: PHP
 	Level: 60
 -
-	Skill: Node, Grunt, Bower <span>og Git</span>
-	Level: 25
+	Skill: Grunt, NPM, Bower <span>og Git</span>
+	Level: 95
 	
 ----
 
@@ -154,16 +154,10 @@ SkillsBonus:
 -
 	Skill: Foto og video
 	Level: 60
--
-	Skill: Mac OS X
-	Level: 98
 	
 ----
 
 SkillsPersonal:
--
-	Skill: Idé-generering
-	Level: 85
 -
 	Skill: Organisering
 	Level: 65
@@ -197,12 +191,28 @@ Interests:
 CV:
 -
 	Type: Job
+	Title: Digital designer
+	Company: Ogilvy Danmark
+	Location: København
+	TimeStart: 2016
+	TimeEnd: 2017
+	Description: Koncept, Digitalt design, Prototyper, Præsentation og rådgivning, Udrulning på digitale platforme. <br />**Kunder:** DSB, Forsvaret, IBM, Københavns Kommune, LEO Pharma, Bristol-Myers Squibb, Shell, Arla.
+-
+	Type: Job
+	Title: Digital designer og Frontend dev
+	Company: Peytz & Co
+	Location: København
+	TimeStart: 2015
+	TimeEnd: 2016
+	Description: Digitalt design, PatternLab prototyper, Grunt workflows, WordPress- og Drupal websites, koordination mellem frontend og backend. <br />**Kunder:** Storebælt.dk, IDA.dk, TV2 Regionerne.
+-
+	Type: Job
 	Title: Webdesign og Development
 	Company: Freelance
 	Location: 
 	TimeStart: 2013
 	TimeEnd: Nu
-	Description: Webdesign, front-end udvikling og themes til WordPress og Drupal m.m.
+	Description: Webdesign, front-end udvikling og themes til WordPress og Drupal m.m. Logoer, branding, tryksager.
 	Link: 
 -
 	Type: Job
