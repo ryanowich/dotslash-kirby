@@ -1,9 +1,9 @@
+![Site screenshot](_dotslash-kirby-v1-Screenshot-2019-11-12-at-15.57.04.jpg)
+
 # Kirby
 
 Kirby is a file-based CMS.
 Easy to setup. Easy to use. Flexible as hell.
-
-![Site screenshot](_dotslash-kirby-v1-Screenshot-2019-11-12-at-15.57.04.jpg)
 
 ## Trial
 
