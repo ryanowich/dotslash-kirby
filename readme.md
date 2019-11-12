@@ -1,4 +1,4 @@
-## Dotslash personal portfolio
+## DotSlash personal portfolio
 
 ![Site screenshot](_dotslash-kirby-v1-Screenshot-2019-11-12-at-15.57.04.jpg)
 
