@@ -1,4 +1,5 @@
-## DotSlash personal portfolio
+## DotSlash personal portfolio 
+Latest content update July 2017
 
 ![Site screenshot](_dotslash-kirby-v1-Screenshot-2019-11-12-at-15.57.04.jpg)
 
